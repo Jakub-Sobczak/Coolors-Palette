@@ -3,151 +3,260 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
-    <meta name="description" content="Your project description" />
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta
-      property="og:image"
-      content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
-    />
-
-    <!-- uncomment the line below to enable PWA  -->
-    <!-- <link rel="manifest" href="manifest.json" /> -->
-
+    <title>Coloors</title>
     <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="pwa/apple-icon-180.png"
+      href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap"
+      rel="stylesheet"
     />
-    <link
-      rel="apple-touch-icon"
-      sizes="167x167"
-      href="pwa/apple-icon-167.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="pwa/apple-icon-152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="pwa/apple-icon-120.png"
-    />
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2048-2732.png"
-      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2732-2048.png"
-      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1668-2388.png"
-      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2388-1668.png"
-      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1668-2224.png"
-      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2224-1668.png"
-      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1536-2048.png"
-      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2048-1536.png"
-      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1242-2688.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2688-1242.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1125-2436.png"
-      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2436-1125.png"
-      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-828-1792.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1792-828.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1242-2208.png"
-      media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2208-1242.png"
-      media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-750-1334.png"
-      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1334-750.png"
-      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-640-1136.png"
-      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1136-640.png"
-      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
+    <link rel="stylesheet" href="../scss/main.scss" />
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
+    <div class="colors">
+      <div class="color">
+        <h2>Hex</h2>
+        <div class="controls">
+          <button class="adjust"><i class="fas fa-sliders-h"></i></button>
+          <button class="lock"><i class="fas fa-lock-open"></i></button>
+        </div>
+        <div class="sliders">
+          <button class="close-adjustment">X</button>
+          <span>Hue</span>
+          <input
+            type="range"
+            min="0"
+            max="360"
+            step="1"
+            name="hue"
+            class="hue-input"
+            data-hue="0"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            class="bright-input"
+            data-bright="0"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            class="sat-input"
+            data-sat="0"
+          />
+        </div>
+      </div>
+      <div class="color">
+        <h2>Hex</h2>
+        <div class="controls">
+          <button class="adjust"><i class="fas fa-sliders-h"></i></button>
+          <button class="lock"><i class="fas fa-lock-open"></i></button>
+        </div>
+        <div class="sliders">
+          <button class="close-adjustment">X</button>
+          <span>Hue</span>
+          <input
+            type="range"
+            min="0"
+            max="360"
+            step="1"
+            name="hue"
+            class="hue-input"
+            data-hue="1"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            class="bright-input"
+            data-bright="1"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            class="sat-input"
+            data-sat="1"
+          />
+        </div>
+      </div>
+      <div class="color">
+        <h2>Hex</h2>
+        <div class="controls">
+          <button class="adjust"><i class="fas fa-sliders-h"></i></button>
+          <button class="lock"><i class="fas fa-lock-open"></i></button>
+        </div>
+        <div class="sliders">
+          <button class="close-adjustment">X</button>
+          <span>Hue</span>
+          <input
+            type="range"
+            min="0"
+            max="360"
+            step="1"
+            name="hue"
+            class="hue-input"
+            data-hue="2"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            class="bright-input"
+            data-bright="2"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            class="sat-input"
+            data-sat="2"
+          />
+        </div>
+      </div>
+      <div class="color">
+        <h2>Hex</h2>
+        <div class="controls">
+          <button class="adjust"><i class="fas fa-sliders-h"></i></button>
+          <button class="lock"><i class="fas fa-lock-open"></i></button>
+        </div>
+        <div class="sliders">
+          <button class="close-adjustment">X</button>
+          <span>Hue</span>
+          <input
+            type="range"
+            min="0"
+            max="360"
+            step="1"
+            name="hue"
+            class="hue-input"
+            data-hue="3"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            class="bright-input"
+            data-bright="3"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            class="sat-input"
+            data-sat="3"
+          />
+        </div>
+      </div>
+      <div class="color">
+        <h2>Hex</h2>
+        <div class="controls">
+          <button class="adjust"><i class="fas fa-sliders-h"></i></button>
+          <button class="lock"><i class="fas fa-lock-open"></i></button>
+        </div>
+        <div class="sliders">
+          <button class="close-adjustment">X</button>
+          <span>Hue</span>
+          <input
+            type="range"
+            min="0"
+            max="360"
+            step="1"
+            name="hue"
+            class="hue-input"
+            data-hue="4"
+          />
+          <span>Brightness</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="brightness"
+            class="bright-input"
+            data-bright="4"
+          />
+          <span>Saturation</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            name="saturation"
+            class="sat-input"
+            data-sat="4"
+          />
+        </div>
+      </div>
     </div>
+    <div class="panel">
+      <div class="library-panel">
+        <button class="library"><i class="fas fa-book-open"></i></button>
+        <p>Library</p>
+      </div>
+      <div class="generate-panel">
+        <button class="generate"><i class="fas fa-sync"></i></button>
+        <p>Generate</p>
+      </div>
+      <div class="save-panel">
+        <button class="save"><i class="fas fa-save"></i></button>
+        <p>Save</p>
+      </div>
+    </div>
+    <div class="copy-container">
+      <div class="copy-popup">
+        <h3>Copied to clipboard!</h3>
+        <h4>&#128077;</h4>
+      </div>
+    </div>
+    <div class="save-container">
+      <div class="save-popup">
+        <button class="close-save">X</button>
+        <h4>Give a name to your pallete</h4>
+        <input type="text" max-length="35" class="save-name" />
+        <button type="submit" class="submit-save">Save</button>
+      </div>
+    </div>
+    <div class="library-container">
+      <div class="library-popup">
+        <button class="close-library">X</button>
+        <h4>Pick your palette</h4>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"
+      integrity="sha256-gX8uuyxN8stSMHWO9arnnKyenTOALaVAcVB3b6P87e4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
